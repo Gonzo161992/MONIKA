@@ -1,0 +1,31 @@
+14/12 09:20:29 [util.ReadProperty.propfile:40] - Project variable read successfully.
+14/12 09:20:29 [Execution.Launcher.main:61] - Reading Config File.
+14/12 09:20:30 [util.ExcelRead.exlDictionary:535] - Dictionary created successfully of Config/Config.xlsx.
+14/12 09:20:30 [Execution.Launcher.main:74] - Reading TestSuite.
+14/12 09:20:31 [util.ExcelRead.exlReadTestSuite:643] - Test Suite file "TestSuite" readed successfully.
+14/12 09:20:31 [Execution.Launcher.main:83] - Creatig testng.xml
+14/12 09:20:31 [util.CreateTestNGFile.TestNGFile:171] - TestSuite/SuiteFiles/ file created successfully.
+14/12 09:20:31 [util.ExcelRead.killProcess:487] - Error while closing excel
+14/12 09:20:32 [util.ExcelRead.TestSuiteUpdate:382] - Error while reseting TestSuite
+14/12 09:20:32 [util.ExcelRead.TestSuiteUpdate:382] - Error while reseting TestSuite
+14/12 09:20:33 [util.ExcelRead.UpdateExcel:79] - MasterTestData_QA.xlsx reset Sucessfully.
+14/12 09:20:33 [Execution.Launcher.main:87] - Reading CommonValues from MasterTestData.
+14/12 09:20:33 [util.ExcelRead.exlDictionary:535] - Dictionary created successfully of Data/TestData/MasterTestData_QA.xlsx.
+14/12 09:20:34 [util.ExcelRead.exlDictionary:535] - Dictionary created successfully of Config/Config.xlsx.
+14/12 09:20:34 [util.ExcelRead.exlDictionary:535] - Dictionary created successfully of Config/Config.xlsx.
+14/12 09:20:36 [core.BaseClass.launchBrowser:212] - Error while launching webdriver.
+ Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, chromeOptions: {args: [--disable-extensions, disable-infobars, --start-maximized], excludeSwitches: [test-type, ignore-certificate-errors], extensions: [], prefs: {credentials_enable_service: false}}, version: }
+Command duration or timeout: 1.12 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:54:15.039Z'
+System info: host: '987ea286cee5', ip: '172.17.0.5', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.100-boot2docker', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+14/12 09:20:36 [core.BaseClass.launchBrowser:212] - Error while launching webdriver.
+ Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, chromeOptions: {args: [--disable-extensions, disable-infobars, --start-maximized], excludeSwitches: [test-type, ignore-certificate-errors], extensions: [], prefs: {credentials_enable_service: false}}, version: }
+Command duration or timeout: 1.11 seconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:54:15.039Z'
+System info: host: '987ea286cee5', ip: '172.17.0.5', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.100-boot2docker', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+14/12 09:20:37 [util.ExcelRead.exlReadMatserTestData:770] - Data against Testcase  "Flipkart.FlipkartSearchValiditem_AUT23_1" is readed successfully.
+14/12 09:20:37 [util.ExcelRead.exlReadMatserTestData:770] - Data against Testcase  "Flipkart.FlipkartSearchInvaliditem_AUT24_1" is readed successfully.
+14/12 09:20:38 [Execution.Launcher.main:144] - Problem while executing test cases from testng.xml. Error is null
+14/12 09:20:38 [Execution.Launcher.main:161] - Error while creating report null

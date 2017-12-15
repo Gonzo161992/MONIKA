@@ -1,0 +1,35 @@
+seleniumhub:
+  image: selenium/hub
+  ports:
+    - "4444:4444"
+
+firefoxnode:
+  image: selenium/node-firefox-debug
+  ports:
+    - "5901:5900"
+  links:
+    - "seleniumhub:hub"
+  shm_size: '2gb'        
+  environment:
+   - "NODE_MAX_SESSION=2"
+   - "NODE_MAX_INSTANCES=2"
+
+chromenode2:
+  image: selenium/node-chrome-debug
+  ports:
+    - "5902:5900"
+  links:
+    - "seleniumhub:hub"
+  shm_size: '2gb'
+  environment:
+    - "NODE_MAX_SESSION=2"
+    - "NODE_MAX_INSTANCES=2"
+
+test:
+  image: raveena1/test
+  ports:
+    - 4579
+  links:
+    - "seleniumhub:hub"
+  container_name: mywebcontainer
+
